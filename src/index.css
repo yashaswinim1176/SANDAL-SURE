@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --color-dark-brown: #24140D;
+    --color-medium-brown: #3D2418;
+    --color-sandalwood-accent: #7D4F33;
+    --color-cream-bg: #FAF7F2;
+    --color-card-border: #E8DFD8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #24140D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-heritage {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: #111111 !important;
+  }
+  @page {
+    size: auto;
+    margin: 12mm;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+  th, td {
+    border: 1px solid #d1d5db !important;
+    padding: 6px 8px !important;
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "SandalSure AI — Digital Sandalwood Traceability & Authenticity",
+  "description": "Digital provenance, journey consistency engine, and tamper-evident authenticity verification for sandalwood supply chains (Ideathon 2026).",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
