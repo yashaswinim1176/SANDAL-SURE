@@ -1,6 +1,7 @@
 # SandalSure AI — Digital Sandalwood Traceability & Authenticity
 **Ideathon 2026 | Problem Statement 2: Digital Sandalwood Traceability & Authenticity**  
 *“The Product With a Story Nobody Could Verify”*
+Live Demo : "https://sandalsure-ai-digital-sandalwood-traceability-aut.ai.studio"
 
 ---
 
