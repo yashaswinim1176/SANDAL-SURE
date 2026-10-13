@@ -1,6 +1,8 @@
 # SandalSure AI — Digital Sandalwood Traceability & Authenticity
 **Ideathon 2026 | Problem Statement 2: Digital Sandalwood Traceability & Authenticity**  
 *“The Product With a Story Nobody Could Verify”*
+
+
 Live Demo : "https://sandalsure-ai-digital-sandalwood-traceability-aut.ai.studio"
 
 ---
@@ -96,31 +98,7 @@ Karnataka Sandalwood (*Santalum album*) is among the most prized fragrant resour
         [ Sandalwood Digital Passport ]
 ```
 
----
-
-## 5. Completed 30% vs Remaining 70% Roadmap
-
-### Completed 30% Working Prototype
-- Complete end-to-end web application with role switcher.
-- Functional batch registration and milestone logging.
-- Deterministic Journey Consistency Engine with 11 validation checks.
-- Cryptographic SHA-256 event chaining and live tamper detection.
-- Digital Sandalwood Passport with dynamic QR generation.
-- Inspector desk with audit drawer and report exports.
-- Automated testing harness with reproducible metrics.
-
-### Remaining 70% Production Roadmap
-- Live API integration with Karnataka Forest Department (KFD) depot databases.
-- Integration with KSDL SAP/Oracle ERP manufacturing batch controllers.
-- Hardware Security Module (HSM) digital signatures at forest checkposts.
-- Electronic ingestion of laboratory GC-MS santalol percentage reports.
-- Distributed consortium node validation between KSDL and forest authorities.
-- High-velocity geospatial scan analytics for counterfeit QR clone detection.
-- Physical tamper-evident NFC tag and hologram binding.
-
----
-
-## 6. Setup & Running Locally
+## 5. Setup & Running Locally
 
 ```bash
 # 1. Install dependencies
@@ -138,7 +116,7 @@ npm run lint
 
 ---
 
-## 7. Responsible Disclosures
+## 6. Responsible Disclosures
 
 - All demo records are clearly marked **DEMO SAMPLE** for Ideathon 2026 evaluation.
 - The Digital Sandalwood Passport validates digital record consistency, not physical chemical purity or biological wood species DNA.
